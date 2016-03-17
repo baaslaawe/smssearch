@@ -19,8 +19,13 @@ Google Custom Search Engine
 api docs: https://developers.google.com/custom-search/json-api/v1/overview
 
 Create here: 
-Copy the "cx" key, this is the value for 
+https://cse.google.ca/cse
+
+Copy the "cx" key (the ID of the custom search engine), this is the value for 
 > ca.goodspeed\_it.smssearch.QueryResponder.CSE\_ID
+
+Make sure the engine is configured to search entire web (https://support.google.com/customsearch/answer/2631040?hl=en)
+
 
 Enable the API and generate a key in the developer console:
 https://console.developers.google.com

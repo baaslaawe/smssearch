@@ -31,8 +31,7 @@ public class QueryResponder {
         return convertStreamToString(in);
 
     }
-    // https://developers.google.com/api-client-library/java/google-api-java-client/setup#eclipse
-    // https://cse.google.com/cse/setup/basic?cx=018435981732196364506%3A3ilugu2hbgo
+
     public String responseFor(String body) {
         URL url = null;
         HttpURLConnection urlConnection = null;
